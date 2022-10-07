@@ -1,0 +1,37 @@
+
+[  9   9  70  30 200   4  40]
+Average Score:3188
+Scores:       3419.0, 3023.0, 3433.0, 3010.0, 4030.0, 2770.0, 3243.0, 2656.0, 3432.0, 2873.0
+Win Rate:     10/10 1.0
+Record:       Win, Win, Win, Win, Win, Win, Win, Win, Win, Win
+==================================
+Average Score:1241
+Scores:       1236.0, 1240.0, 1241.0, 1247.0, 1239.0, 1250.0, 1242.0, 1244.0, 1234.0, 1242.0
+Win Rate:     10/10 1.0
+Record:       Win, Win, Win, Win, Win, Win, Win, Win, Win, Win
+==================================
+Average Score:84
+Scores:       84.0
+Win Rate:     0/1 0.0
+Record:       Loss
+==================================
+Average Score:84
+Scores:       84.0
+Win Rate:     0/1 0.0
+Record:       Loss
+==================================
+Average Score:84
+Scores:       84.0
+Win Rate:     0/1 0.0
+Record:       Loss
+==================================
+Average Score:1208
+Scores:       1238.0, 1131.0, 980.0, 1187.0, 1207.0, 1324.0, 1338.0, 1093.0, 1275.0, 1315.0
+Win Rate:     10/10 1.0
+Record:       Win, Win, Win, Win, Win, Win, Win, Win, Win, Win
+==================================
+Average Score:3188
+Scores:       3419.0, 3023.0, 3433.0, 3010.0, 4030.0, 2770.0, 3243.0, 2656.0, 3432.0, 2873.0
+Win Rate:     10/10 1.0
+Record:       Win, Win, Win, Win, Win, Win, Win, Win, Win, Win
+==================================

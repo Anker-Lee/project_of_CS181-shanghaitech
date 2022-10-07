@@ -703,7 +703,7 @@ def runGames(layout, pacman, ghosts, display, numGames, record, numTraining=0, c
             f = file(fname, 'w')
             components = {'layout': layout, 'actions': game.moveHistory}
             pickle.dump(components, f)
-            f.close()
+            f.close() #2800
 
     if (numGames-numTraining) > 0:
         scores = [game.state.getScore() for game in games]
@@ -715,6 +715,18 @@ def runGames(layout, pacman, ghosts, display, numGames, record, numTraining=0, c
               (wins.count(True), len(wins), winRate))
         print('Record:       ', ', '.join(
             [['Loss', 'Win'][int(w)] for w in wins]))
+
+        # with open('parameter.txt', 'a') as f:
+        #     f.writelines('Average Score:' + str(int(sum(scores) / float(len(scores)))))
+        #     f.write('\r\n')
+        #     f.writelines('Scores:       ' + str(', '.join([str(score) for score in scores])))
+        #     f.write('\r\n')
+        #     f.writelines('Win Rate:     ' + str(wins.count(True)) + '/' + str(len(wins)) + ' ' + str(winRate))
+        #     f.write('\r\n')
+        #     f.writelines('Record:       ' + str(', '.join([['Loss', 'Win'][int(w)] for w in wins])))
+        #     f.write('\r\n')
+        #     f.writelines('==================================')
+        #     f.write('\r\n')
 
     return games
 
